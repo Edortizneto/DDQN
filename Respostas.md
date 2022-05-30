@@ -7,27 +7,27 @@ Foi feito 2 experimentos com o modelo "Deep QLearning", de 300 e 500 episódios,
 <br>
 
 **Gráfico DQN 300 episódios**
-![alt text](https://github.com/Edortizneto/DDQN/blob/main/imgs/DQN300.jpg?raw=true)]
+![alt text](https://github.com/Edortizneto/DDQN/blob/main/imgs/lunar_lander_DeepLearning.jpg?raw=true)]
 Nessa versão do Deep QLearning treinada com 300 episódios, é possível observar que o modelo oscila até atingir a marca superior a 200 de *reward* e continua oscilando, mesmo que mantendo como base a marca superior a 200, até acabar os 300 episódios.
 <br>
 
 **Gráfico DQN 500 episódios**
-![alt text](https://github.com/Edortizneto/DDQN/blob/main/imgs/DQN500.jpg?raw=true)
+![alt text](https://github.com/Edortizneto/DDQN/blob/main/imgs/lunar_lander_v1.jpg?raw=true)
 Nessa versão do Deep QLearning treinada com 500 episódios, é possível observar que o modelo oscila até atingir a marca superior a 250 de *reward* e continua oscilando, mesmo que mantendo como base a marca superior a 200, até chegar aos 300 episódios. Porém, após os 300 o modelo parece que perde tudo que aprendeu e volta para uma média de *rewards* bastante negativa até oscilar de volta à uma marca mais positiva próxima ao episódio de número 500. 
 <br>
 
 **Gráfico DDQN 300 episódios**
-![alt text](https://github.com/Edortizneto/DDQN/blob/main/imgs/DDQN300.jpg?raw=true)
+![alt text](https://github.com/Edortizneto/DDQN/blob/main/imgs/300lunar_lander_DoubleDeepLearning.jpg?raw=true)
 Nesta versão do Double Deep QLearning treinada com 300 episódios, é possível observar que o modelo oscila bastante até uma marca de *reward* desejada, porém, sua amplitude de oscilação é menor, devido à sua rede mais "conservadora" de tomada de decisões.
 <br>
 
 **Gráfico DDQN 1000 episódios**
-![alt text](https://github.com/Edortizneto/DDQN/blob/main/imgs/DDQN1000.jpg?raw=true)
+![alt text](https://github.com/Edortizneto/DDQN/blob/main/imgs/1000lunar_lander_DoubleDeepLearning.jpg?raw=true)
 Nesta versão do Double Deep QLearning treinada com 1000 episódios, é possível observar que o modelo oscila bastante até uma marca de *reward* desejada, acabando por não conseguir manter uma média de bons resultados.
 <br>
 
 **Gráfico DDQN 2000 episódios**
-![alt text](https://github.com/Edortizneto/DDQN/blob/main/imgs/DDQN2000.jpg?raw=true)
+![alt text](https://github.com/Edortizneto/DDQN/blob/main/imgs/2000lunar_lander_DoubleDeepLearning.jpg?raw=true)
 Nesta versão do Double Deep QLearning treinada com 2000 episódios, é possível observar que o modelo oscila bastante até uma marca de *reward* desejada, acabando por convergir apenas no final dos 2000 episódios para um *reward* mais próximo do desejado.
 
 ## Análise dos resultados encontrados e Conclusão
