@@ -78,6 +78,6 @@ Double Deep QLearning
  mean = 105.56366677241746       std = 73.23989957338223
 ```
 Os números parecem ruins, mas é necessário pontuar um problema encontrado no ambiente: Algumas vezes, a nave consegue pousar todavia não é registrado no ambiente como estado terminal, logo, o agente acha que ainda é necessário realizar ajustes e acaba consumindo todos os stes (máximo de 3000), tomando uma pena no score e diminuindo para números próximos de 50.0.
-
+![alt text](https://github.com/Edortizneto/DDQN/blob/main/imgs/Screenshot%20from%202022-05-29%2020-51-26.png?raw=true)
 
 No final das contas, é preciso ponderar que apesar dos resultados do Deep QLearning serem melhores, o modelo de Double Deep QLearning também pode ser competente.
